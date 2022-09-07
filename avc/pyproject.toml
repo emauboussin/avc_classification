@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "avc-poetry"
+version = "0.1.0"
+description = ""
+authors = ["Esteban"]
+readme = "README.md"
+packages = [{include = "avc_poetry"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "matplotlib"
+matplotlib = "^3.5.3"
+scikit-learn = "^1.1.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.8.0"
+flake8 = "^5.0.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
