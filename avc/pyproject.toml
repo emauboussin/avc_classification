@@ -2,7 +2,7 @@
 name = "avc-poetry"
 version = "0.1.0"
 description = ""
-authors = ["Esteban"]
+authors = ["Jade Sarra Secil Eunice Esteban"]
 readme = "README.md"
 packages = [{include = "avc_poetry"}]
 
